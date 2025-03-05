@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-q#+pp=#i&%5re-w4p!0*x3w#z98+ufa3=k)jkpa!6*o2x$q^%^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "chat-project-6vmq.onrender.com",  # Render hosted domain
+    "localhost",  # Local development
+    "127.0.0.1",  # Loopback IP for local development
+]
 
 
 # Application definition
